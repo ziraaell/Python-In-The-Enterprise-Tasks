@@ -27,7 +27,6 @@ class BankAcount:
     def __str__(self):
         return f'Bank account: name = {self.name}, surname: {self.surname}, age: {self.age}, country = {self.country}, city = {self.city}\nCurrent funds = {self.funds}\n'
 
-
 class Bank:
     def __init__(self):
         self.bank_accounts = []
@@ -41,8 +40,6 @@ class Bank:
             accounts_str += str(account)
         return accounts_str
     
-
-
 if __name__ == "__main__":
     bank_account1 = BankAcount(1, "Jan", "Nowak", 42, "Poland", "Cracow")
     bank_account2 = BankAcount(2, "John", "Smith", 22, "England", "London")
