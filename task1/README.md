@@ -1,3 +1,4 @@
+<div style="text-align: left;">
 ## Flight Simulator: Tilt Correction
 
 This project simulates the tilt correction of an airplane's roll angle (the angle between the airplane's wings and the ground). The goal is to model how an airplane reacts to turbulence and stabilizes its orientation.
